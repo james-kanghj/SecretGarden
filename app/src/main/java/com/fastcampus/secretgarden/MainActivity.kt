@@ -5,7 +5,6 @@ import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.NumberPicker
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -69,7 +68,7 @@ class MainActivity : AppCompatActivity() {
 
             if (passwordPreferences.getString("password", "000").equals(passwordFromUser)) {
 
-                startActivity((Intent(this, DiaryAcitivity::class.java)))
+                startActivity((Intent(this, DiaryActivity::class.java)))
 
             } else {
                 showErrorAlertDialog()

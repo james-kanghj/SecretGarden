@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.edit
 import androidx.core.widget.addTextChangedListener
 
-class DiaryAcitivity : AppCompatActivity() {
+class DiaryActivity : AppCompatActivity() {
 
     private val handler = Handler(Looper.getMainLooper())
 
